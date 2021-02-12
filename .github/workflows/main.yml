@@ -43,7 +43,7 @@ jobs:
           context: ./
           file: ./Dockerfile
           push: true
-          tags: khanaarsalan/python-docker:latest
+          tags: khanaarsalan007/python-docker:latest
 
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
